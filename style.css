@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+    font-size: 16px;
+}
+ul, li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1728px;
+    margin:0 auto;
+}
+.nav{
+    width:1728px;
+    height:1080px;
+    background-image:url(./image/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.navbar{
+    padding-top:44px;
+    padding-left:30px;
+    padding-right:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-right>ul{
+    display: flex;  
+    gap: 30px;
+    align-items: center;
+}
+.nav-right>ul>li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.nav p{
+    width: 492px;
+    height: 105px;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 105px;
+    color: #000000;
+    padding-left:157px;
+    padding-top:330px;
+}
+.nav .download {
+    position: absolute;
+    bottom:50px;
+    right:30px;
+}
+.CTC{
+    display: flex;
+    gap:0px;
+}
+.CTC-left{
+    position: relative;
+}
+.CTC-left .title{
+    width: 298px;
+    height: 72px;
+    position: absolute;
+    top:34px;
+    left:42px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.CTC-right{
+    position: relative;
+}
+.CTC-right .title{
+    width: 309px;
+    height: 72px;
+    position: absolute;
+    top:34px;
+    left:42px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.header{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+    padding-left:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.phone-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.phone-list .list1{
+    display: flex;
+    gap: 0px;
+}
+.phone-list .list1 >div{
+    width:432px;
+}
+.phone-list .list2{
+    display: flex;
+    gap: 0px;
+    padding-bottom:20px;
+}
+.phone-list .list1:not(:nth-child(2)){
+    background-color: rgb(245, 245, 248);
+}
+.phone-list .list1>div img{
+    display: block;
+    width:100%;
+}
+.phone-list .list2>div img{
+    display: block;
+    width:100%;
+}
+.phone-list .list1>div >.title{
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+    padding-bottom:45px;
+}
+.phone-list .list2>div >.title{
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+    padding-bottom:45px;
+}
+.phone-list .list1 .box2{
+    background-color: rgb(52, 52, 185);
+}
+.phone-list .list1 .box2 .title{
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+.phone-list .list1 .box3 .title{
+    margin-top: 25px;
+}
+.footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.footer .top{
+    display: flex;
+    gap: 32px;
+    padding-left:30px;
+    align-items: center;
+    margin-bottom:68px;
+}
+.footer .top .share{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #999999;
+}
+.footer .middle img{
+    object-fit: none;
+}
+.footer .middle{
+    display: flex;
+    gap: 35px;
+    padding-left:30px;
+}
+.footer .bottom>ul{
+    display: flex;
+    gap:15px;
+    padding-left:151px;
+}
+.footer .bottom{
+    margin:0px;
+    padding-bottom: 31px;
+}
